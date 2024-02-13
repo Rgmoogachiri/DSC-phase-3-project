@@ -1,4 +1,4 @@
-# Predicting HIN1 Vaccination Status
+# Predictive Modeling for H1N1 Vaccine Uptake
 
 # Overview
 As the world struggles to vaccinate the global population against COVID-19, an understanding of how people’s backgrounds, opinions, and health behaviors are related to their personal vaccination patterns can provide guidance for future public health efforts. Such findings can guide policymakers and public health professionals develop public health efforts to improve vaccine uptake to mitigate spread of preventable communicable dieases.

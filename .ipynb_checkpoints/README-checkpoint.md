@@ -1,4 +1,4 @@
-# Predicting HIN1 Vaccination Status
+# Predictive Modeling for H1N1 Vaccine Uptake
 
 # Overview
 As the world struggles to vaccinate the global population against COVID-19, an understanding of how people’s backgrounds, opinions, and health behaviors are related to their personal vaccination patterns can provide guidance for future public health efforts. Such findings can guide policymakers and public health professionals develop public health efforts to improve vaccine uptake to mitigate spread of preventable communicable dieases.
@@ -87,6 +87,7 @@ The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.d
 - XGBoost is therefore our **best and final model** with the best Accuracy of **0.8405**, as compared to all other models
 
 ### ROC Curve
+![Image](https://github.com/Rgmoogachiri/DSC-phase-3-project/blob/main/Visualizations/ROC%20curves.png)
 
 # Conclusions
 
@@ -98,19 +99,18 @@ The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.d
 5. H1N1 Knowledge - `h1n1_knowledge` 
 6. Perceived side-effects from H1N1 vaccine - `opinion_h1n1_risk` 
 7. Chronic medical condition - `chronic_med_condition`
-8. Number of adults in an households - `household_adults` 
+8. Number of adults in a household - `household_adults` 
 
   
 # Recommendations
 1. Dispel vaccine myths and promote preventative measures against the flu.
-2. Identify high risk groups partcularly those with lower levels of education and indviduals expressing low concern for H1N1, to implement targeted messaging to them.
-3. Utilize predictive model for efficent resource allocation on the vaccination campaign.
-4. Implement policies that emphasize on face masks, minimizing gatherings and hand washing.
-5. Collaboration with health experts to encouraage medical checkups and doctor's recommendation.
+2. Identify high-risk groups particularly those with lower levels of education and individuals expressing low concern for H1N1, to implement targeted messaging to them.
+3. Utilize a predictive model for efficient resource allocation in the vaccination campaign.
+4. Implement policies that emphasize face masks, minimizing gatherings, and hand washing.
+5. Collaboration with health experts to encourage medical checkups and doctor's recommendations.
 
 
 
 # Next Steps
 1. Monitoring and Assessment: Keep a close eye on the results of the interventions and communication tactics used. Compare the vaccination uptake rates before and after the interventions to assess the efficacy of various strategies.
-2. 
-3. Update the predictive model often with fresh information to enhance future interventions and targeting tactics
+2.  Update the predictive model often with fresh information to enhance future interventions and targeting tactics
