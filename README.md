@@ -8,10 +8,19 @@ This project utilises data from a United States' conducted National 2009 H1N1 Fl
 # Business Understanding
 The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.drivendata.org/competitions/66/flu-shot-learning/page/211/) and the purpose of this project is to use data to forecast whether or not a person received the H1N1 flu vaccination, using features such as social, economic, and demographic background, opinions on risks of illness and vaccine effectiveness, and behaviors towards mitigating transmission, etcetera. The findings would also be applicable for use by the Kenya's Ministry of Health to more effectively target public health initiatives that boost vaccination rates and localise for other communicable dieases like influenza.
 
+### Research Questions
+1. How may false information regarding vaccines be effectively refuted to encourage factual knowledge and vaccination acceptance of the flu?
+2. Which major groups are most likely to be deceived about the flu shot, especially those with lower levels of education? How might focused messaging be developed to allay their fears?
+3. How can resource allocation for flu vaccination programs be optimized by the use of predictive modeling, guaranteeing effective distribution to high-risk populations and regions?
+4. What programs may be put in place to promote the general adoption of preventative measures like donning face masks, avoiding crowds, and washing your hands properly?
+5. How can cooperation with medical professionals be improved to encourage routine physical examinations and support physicians' recommendations for flu shots among high-risk individuals?
+
 ### Business Objectives
-1. Our objective is to develop a predictive model to identify individuals who are likely to exhibit vaccine hesitancy. Our goal is to provide insights that can inform targeted vaccination campaigns and interventions aimed at addressing vaccine hesitancy and increasing vaccine uptake rates.
-2. Identify common factors associated with increased uptake of vaccines. Understanding these factors can inform the development of targeted interventions and public health strategies aimed at promoting vaccination uptake and improving overall immunization rates
-3. Examine the influence of socio-economic factors, such as income and education, on vaccination decisions.
+1. Analyze how well various communication tactics work to debunk vaccine misconceptions and spread factual information about getting the flu shot.
+2. Determine which high-risk groups to target with messaging and interventions, especially those who are less educated and show little concern for the H1N1.
+3. Create a predictive model that makes the best use of behavioral, epidemiological, and demographic data to allocate resources for flu vaccine campaigns.
+4. Create and put into action policies and initiatives that will increase people's adherence to preventive measures like hand hygiene, avoiding crowds, and wearing face masks.
+5. Create efficient channels of communication with medical professionals to enable routine physical examinations and improve physician recommendations for influenza shots in high-risk patients. 
 
 # Data Description
 - h1n1_concern - Level of concern about the H1N1 flu.
@@ -91,7 +100,7 @@ The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.d
 
 # Conclusions
 
-### Features that were most important in predicting whether someone was vaccinated or not included:
+### Features that were most important in predicting H1N1 vaccine uptake::
 1. Opinion on H1N1 vaccine effectiveness - `opinion_h1n1_vacc_effective` 
 2. Doctor’s recommendation - `doctor_recc_h1n1`
 3. H1N1 concern - `h1n1_concern`
@@ -108,7 +117,6 @@ The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.d
 3. Utilize a predictive model for efficient resource allocation in the vaccination campaign.
 4. Implement policies that emphasize face masks, minimizing gatherings, and hand washing.
 5. Collaboration with health experts to encourage medical checkups and doctor's recommendations.
-
 
 
 # Next Steps
