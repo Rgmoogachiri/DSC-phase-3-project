@@ -87,6 +87,7 @@ The National 2009 H1N1 Flu Survey data was downloaded [DrivenData](https://www.d
 - XGBoost is therefore our **best and final model** with the best Accuracy of **0.8405**, as compared to all other models
 
 ### ROC Curve
+![Image](https://github.com/Rgmoogachiri/DSC-phase-3-project/blob/main/Visualizations/ROC%20curves.png)
 
 # Conclusions
 
